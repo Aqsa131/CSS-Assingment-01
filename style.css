@@ -39,26 +39,26 @@ a.mail{
     overflow: auto;
     position: fixed;
 }
+.nav_link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+.nav_link:hover{
+    color: rgba(250, 235, 215, 0.683);
+}
 img{
     margin-top: 120px;
     margin-left: 30px;
     size: 20%;
     height: 20%;
     border-radius: 50%;
-    border: 4px black;
-    outline: 10px black;
+    border: 5px solid rgb(133, 88, 84);
 }
 ol{
     text-align: center;
 }
-li{
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-}
-li:hover{
-    color: rgba(250, 235, 215, 0.683);
-    cursor: pointer;
-}
+
 p.obj{
     font-family: "Ubuntu", sans-serif;
     margin-top: 40px;
@@ -72,6 +72,7 @@ i.icon{
     font-size: 50px;
     color: grey;
     text-decoration: none;
+    text-transform: none;
 }
 .icon:hover{
     color: rgb(209, 144, 138);
